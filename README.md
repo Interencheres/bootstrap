@@ -14,7 +14,7 @@ Copy ```config.rb.sample``` to ```config.rb``` and fill the constant.
 
 ## Run
 ```bash
-bundle exec ruby copy.rb
+bundle exec ruby copy.rb src_repo dst_repo
 ```
 
 # Commit message guidelines

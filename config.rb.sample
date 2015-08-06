@@ -1,4 +1,2 @@
 ACCESS_TOKEN = 'string'
-SRC_REPO = 'owner/repo'
-DST_REPO = 'owner/repo'
 LOGGER_LEVEL = Logger::INFO
