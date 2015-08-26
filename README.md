@@ -17,6 +17,11 @@ Copy ```config.rb.sample``` to ```config.rb``` and fill the constant.
 bundle exec ruby copy.rb src_repo dst_repo
 ```
 
+Example :
+```bash
+bundle exec ruby copy.rb interencheres/bootstrap basti1dr/imwatchingyou
+```
+
 # Commit message guidelines
 
 Taken from Angular.
