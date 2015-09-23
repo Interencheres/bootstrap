@@ -54,7 +54,8 @@ Must be one of the following:
 * **test**: Adding missing tests
 * **chore**: Changes to the build process or auxiliary tools and libraries such as documentation
   generation
-
+* **rename**: Rename a files already present in the master repository
+* **readme**: Every action on the README
 ### Scope
 The scope could be anything specifying place of the commit change.
 
