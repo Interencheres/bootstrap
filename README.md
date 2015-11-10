@@ -10,7 +10,11 @@ bundle install
 ```
 
 ## Configuration
-Copy ```config.rb.sample``` to ```config.rb``` and fill the constant.
+Copy ```config.rb.sample``` to ```config.rb``` and fill the constant, especially the ```ACCESS_TOKEN```.
+In order to do so, go to your _settings_ > _Personal access tokens_ and click on the "generate new token" button. After
+completing your password, you only need to limit the access to ```repo``` to generate the token.
+
+_NOTE_: remove the token afterwards.
 
 ## Run
 ```bash
