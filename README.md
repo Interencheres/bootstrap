@@ -26,6 +26,14 @@ Example :
 bundle exec ruby copy.rb interencheres/bootstrap basti1dr/imwatchingyou
 ```
 
+## Run inside docker
+You can run this project without installing a ruby env on your computer.
+
+When you are in this project directory run this command (replacing `XXX` with the repository you want to bootstrap) :
+```bash
+docker run -it --mount type=bind,src=$(pwd -P),target=/root/app --workdir /root/app ruby:2.5.3 bash -c "bundler install && ruby copy.rb Interencheres/bootstrap Interencheres/XXX"
+```
+
 # Commit message guidelines
 
 Taken from Angular.
