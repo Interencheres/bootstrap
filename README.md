@@ -31,7 +31,7 @@ You can run this project without installing a ruby env on your computer.
 
 When you are in this project directory run this command (replacing `XXX` with the repository you want to bootstrap) :
 ```bash
-docker run -it --rm --mount type=bind,src=$(pwd -P),target=/root/app --workdir /root/app ruby:2.5.3 bash -c "bundler install && ruby copy.rb Interencheres/bootstrap Interencheres/XXX"
+docker run -it --rm --mount type=bind,src=$(pwd -P),target=/root/app --workdir /root/app ruby:2.5.3 bash -c "bundle install && ruby copy.rb Interencheres/bootstrap Interencheres/XXX"
 ```
 
 # Commit message guidelines
