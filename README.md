@@ -11,7 +11,7 @@ bundle install
 
 ## Configuration
 Copy ```config.rb.sample``` to ```config.rb``` and fill the constant, especially the ```ACCESS_TOKEN```.
-In order to do so, go to your _settings_ > _Personal access tokens_ and click on the "generate new token" button. After
+In order to do so, go to your _settings_ > _Developer settings_ > _Personal access tokens_ and click on the "generate new token" button. After
 completing your password, you only need to limit the access to ```repo``` to generate the token.
 
 _NOTE_: remove the token afterwards.
@@ -31,7 +31,7 @@ You can run this project without installing a ruby env on your computer.
 
 When you are in this project directory run this command (replacing `XXX` with the repository you want to bootstrap) :
 ```bash
-docker run -it --rm --mount type=bind,src=$(pwd -P),target=/root/app --workdir /root/app ruby:2.5.3 bash -c "bundle install && ruby copy.rb Interencheres/bootstrap Interencheres/XXX"
+docker run -it --rm --mount type=bind,src=$(pwd -P),target=/root/app --workdir /root/app ruby:2.7-alpine sh -c "bundle install && ruby copy.rb Interencheres/bootstrap Interencheres/XXX"
 ```
 
 # Commit message guidelines
